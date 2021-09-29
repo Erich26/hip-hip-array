@@ -23,6 +23,12 @@ const students = [
   'Andy'
 ];
 
+console.log('for-of'); 
+
+for (const value of students) {
+  console.log('value', value)
+}
+
 
 // Challenge 2
 // Loop through the following array BACKWARDS, console.logging out each value. 64 should be printed first and 100 last.
